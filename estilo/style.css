@@ -7,7 +7,7 @@ body{
     background-color: rgb(46, 46, 149);
 }
 header{
-    background-image: url(../imagens/wallpaper-2.jpg);
+    background-image: url(../imagens/wallpaper-blur.jpg);
     background-size: cover;
     color: white;
     min-height: 100vh;
@@ -22,5 +22,34 @@ header>h1{
     padding-bottom: 50px;
 }
 header>p{
+    font-size: 3em;
+    width: 730px;
+}
+ul{
+    font-size: 2em;
+    padding-top: 60px;
+}
+#começo1{
+    list-style-image: url(../imagens/whats-icon2.png);
+    border: 3px solid white;
+    padding: 0px;
+    margin-bottom: 20px;
+    height: 75px;
     width: 300px;
+}
+#começo1>a{
+    text-decoration: none;
+    color: white;
+}
+#começo2{
+    list-style-image: url(../imagens/instagram2.png);
+    border: 3px solid white;
+    padding: 0px;
+    margin-bottom: 20px;
+    height: 75px;
+    width: 300px;
+}
+#começo2>a{
+    text-decoration: none;
+    color: white;
 }
