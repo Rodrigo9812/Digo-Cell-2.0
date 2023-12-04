@@ -8,6 +8,7 @@ body{
 }
 header{
     background-image: url(../imagens/wallpaper-blur.jpg);
+    background-attachment: fixed;
     background-size: cover;
     color: white;
     min-height: 100vh;
@@ -23,19 +24,20 @@ header>h1{
 }
 header>p{
     font-size: 3em;
-    width: 730px;
+    max-width: 730px;
 }
-ul{
-    font-size: 2em;
+.inicio{
+    font-size: 3em;
     padding-top: 60px;
+    max-width: 352px;
 }
 #começo1{
-    list-style-image: url(../imagens/whats-icon2.png);
+    list-style-image: url(../imagens/whats-icon4.png);
     border: 3px solid white;
-    padding: 0px;
+    padding-bottom:20px;
     margin-bottom: 20px;
-    height: 75px;
-    width: 300px;
+    max-height: 105px;
+    max-width: 352px;
 }
 #começo1>a{
     text-decoration: none;
@@ -46,10 +48,57 @@ ul{
     border: 3px solid white;
     padding: 0px;
     margin-bottom: 20px;
-    height: 75px;
-    width: 300px;
+    height: 105px;
+    max-width: 352px
 }
 #começo2>a{
     text-decoration: none;
     color: white;
+}
+#começo1>a:hover{
+    color: rgb(56, 255, 56);
+}
+#começo2>a:hover{
+    color: #FE5D5F;
+}
+.classe2{
+    background-image: url(../imagens/wallpaper-blur.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+article{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-end;
+    top: 115%;
+    position: absolute;
+    left: 50%;
+    font-size: 1.7em;
+    line-height: 1.5;
+}
+
+.classe2>article>h1{
+    padding-bottom: 60px;
+    color: white;
+}
+.classe2>article>p{
+    text-align: center;
+    color: white;
+    max-width: 555px;
+}
+.classe2>picture>img{
+    padding-top: 125px;
+    padding-left: 20px;
+}
+footer{
+    list-style-image: url(../imagens/pin-p.png);
+    background-color: #001524;
+    color: white;
+    font-size: 1.2em;
+    padding: 5px;
+    text-align: center;
 }
