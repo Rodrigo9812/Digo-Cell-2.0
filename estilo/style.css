@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 body{
     background-color: rgb(46, 46, 149);
@@ -10,6 +11,7 @@ header{
     background-image: url(../imagens/wallpaper-blur.jpg);
     background-attachment: fixed;
     background-size: cover;
+    background-position: left center;
     color: white;
     min-height: 100vh;
     display: flex;
@@ -69,7 +71,7 @@ header>p{
     background-attachment: fixed;
     min-height: 100vh;
 }
-article{
+.identificar{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -86,19 +88,101 @@ article{
     color: white;
 }
 .classe2>article>p{
-    text-align: center;
+    text-align: justify;
     color: white;
     max-width: 555px;
+    text-indent: 45px;
 }
 .classe2>picture>img{
     padding-top: 125px;
     padding-left: 20px;
 }
+.classe3{
+    background-image: url(../imagens/wallpaper-blur.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    padding: 15px;
+    padding-top: 110px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    font-size: 1.7em;
+    justify-content: space-around;
+
+line-height: 1.4;
+}
+.certificado{
+    display: flex;
+    padding-bottom: 5px;
+    width: 433px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.certificado>#img1{
+    border-radius: 40px;
+    margin-bottom: 50px;
+}
+.certificado>#img2{
+    border-radius: 40px;
+    height: 500px;
+}
+.texto-certificado{
+    display: flex;
+    color: white;
+    max-width: 513px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-indent: 20px;
+}
+.texto-certificado>h1{
+    padding-bottom: 60px;
+}
+#p-certificado{
+    padding-bottom: 175px;
+}
+#p-certificado2{
+    padding-bottom: 15px;
+    max-width: 551px;
+}
+#p-certificado3{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.texto-certificado>ul{
+    list-style-image: url(../imagens/whats-icon5.png);
+}
+#orçamento{
+    text-decoration: none;
+    color: white;
+}
+#orçamento:hover{
+    color: rgb(56, 255, 56);;
+}
 footer{
-    list-style-image: url(../imagens/pin-p.png);
     background-color: #001524;
     color: white;
     font-size: 1.2em;
     padding: 5px;
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+footer>ul{
+    list-style-type: none;
+}
+#localiza{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+#localiza:hover{
+    color: rgb(255, 171, 171);
+    text-decoration: underline;
 }
