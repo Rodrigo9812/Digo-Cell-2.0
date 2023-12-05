@@ -34,7 +34,7 @@ header>p{
     max-width: 352px;
 }
 #começo1{
-    list-style-image: url(../imagens/whats-icon4.png);
+    list-style-image: url(../imagens/instagram2.png);
     border: 3px solid white;
     padding-bottom:20px;
     margin-bottom: 20px;
@@ -46,7 +46,7 @@ header>p{
     color: white;
 }
 #começo2{
-    list-style-image: url(../imagens/instagram2.png);
+    list-style-image: url(../imagens/whats-icon4.png);
     border: 3px solid white;
     padding: 0px;
     margin-bottom: 20px;
@@ -58,10 +58,10 @@ header>p{
     color: white;
 }
 #começo1>a:hover{
-    color: rgb(56, 255, 56);
+    color:#FE5D5F ;
 }
 #começo2>a:hover{
-    color: #FE5D5F;
+    color:rgb(56, 255, 56) ;
 }
 .classe2{
     background-image: url(../imagens/wallpaper-blur.jpg);
