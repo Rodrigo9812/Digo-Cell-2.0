@@ -13,7 +13,6 @@ header{
     background-size: cover;
     background-position: left center;
     color: white;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -70,7 +69,6 @@ header>p{
     background-size: cover;
     background-position: left center;
     background-attachment: fixed;
-    min-height: 100vh;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -108,7 +106,6 @@ header>p{
     background-size: cover;
     background-position: left center;
     background-attachment: fixed;
-    min-height: 100vh;
     padding: 15px;
     padding-top: 110px;
     display: flex;
