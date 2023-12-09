@@ -25,7 +25,8 @@ header{
     line-height: 3;
 }
 header>p{
-    width: 645px;
+    min-width: 400px;
+    max-width: 645px;
     line-height: 2;
     text-align: center;
     padding-bottom: 25px;
@@ -53,6 +54,7 @@ ul>li>a{
     content: url(../imagens/whats-icon4.png);
 
 }
+
 .classe2{
     background-image: url(../imagens/wallpaper-blur.jpg);
     background-repeat: no-repeat;
@@ -100,27 +102,22 @@ ul>li>a{
     padding-top: 110px;
     display: flex;
     flex-direction: row-reverse;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    justify-content: space-between;
     font-size: 1.7em;
-    justify-content: space-around;
-
-line-height: 1.4;
+    line-height: 1.4;
 }
 .certificado{
     display: flex;
-    padding-bottom: 5px;
-    width: 433px;
     flex-direction: column;
-    flex-wrap: wrap;
-    align-content: flex-start;
+    min-width: 400px;
+    max-width: 800px;
 }
-.certificado>#img1{
-    border-radius: 40px;
-    margin-bottom: 50px;
+#img1{
+    border-radius: 30px;
 }
-.certificado>#img2{
-    border-radius: 40px;
-    height: 500px;
+#img2{
+    border-radius: 30px;
 }
 .texto-certificado{
     display: flex;
